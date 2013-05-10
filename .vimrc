@@ -9,7 +9,7 @@ set expandtab "insert spaces instead of tab character
 set showmatch
 set ruler
 set nohls
-set incsearch
+set incsearch "make search act like search in modern browsers
 
 " smartindent mode for python files
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
