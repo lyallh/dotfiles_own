@@ -104,8 +104,9 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+# add home path directories if any applications are installed in home
 export PATH=$PATH:$HOME/local/bin
-export PYTHONPATH=$PYTHONPATH:$HOME/local/lib/python2.6/site-packages
+# export PYTHONPATH=$PYTHONPATH:$HOME/local/lib/python2.6/site-packages
 
 # vi editing mode
 set -o vi
